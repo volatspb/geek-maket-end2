@@ -1,0 +1,96 @@
+body {
+box-sizing: border-box;
+}
+
+a {
+text-decoration: none;
+}
+
+.container {
+max-width: 1920px;
+margin: 0 auto;
+}
+
+
+
+.header {
+background-image: url(../img/bgph.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top center;
+max-width: 1920px;
+height: 1024px;
+background-color: rgba(17,17,17,0.7);
+}
+
+.header_top {
+display: flex;
+justify-content: space-between;
+height: 104px;
+align-items: center;
+}
+
+.logo {
+width: 180px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 181px;
+text-decoration: none;
+color: #fff;
+padding-left: 376px;
+}
+
+.logo-img {
+width: 181px;
+}
+
+.logo-txt {
+text-decoration: none;  
+font-family: Raleway;
+font-size: 34px;
+line-height: 1.2;
+font-weight: 400;
+letter-spacing: -0.04em;
+color: #ffffff;
+text-align: center;
+}
+
+.menu_list {
+display: flex;
+}
+
+.menu_list li + li {
+padding-left: 30px;
+}
+
+.login {
+margin-right: 44px;
+color: #fff;
+}
+
+.menu_list a {
+transition: all 0.5s;
+font-family: Montserrat;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 300;
+color: #ffffff;
+}
+
+.menu_list a:hover {
+opacity: 1;
+color: #c7b299;
+}
+
+.sign-up {
+color: #250f8a;
+font-weight: 600;
+background-color: #fff;
+padding: 8px 43px;
+border-radius: 20px;
+}
+
+.header-btn {
+padding-right: 374px;
+}

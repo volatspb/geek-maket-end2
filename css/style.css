@@ -1647,7 +1647,7 @@ display: none;
     }
     .header-bottom-title {
         padding: 0;
-        padding-top: 110px;
+        padding-top: 55px;
     }
     .header-bottom-title_h1 {
         font-size: 20px;
@@ -1893,7 +1893,9 @@ display: none;
         -webkit-transform: rotate(45deg);
     }
     .logo {
-        display: none;
+        /*display: none;*/
+        padding-top: 31px;
+        padding-left: 146px;
     }
     .header-btn {
         display: none;
